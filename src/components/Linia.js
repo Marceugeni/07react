@@ -2,7 +2,7 @@ import React from "react";
 
 function Linia (props) {
     return (
-        <h1>{props.oneFrase}</h1>
+        <h3>{props.oneFrase}</h3>
     )
 }
 

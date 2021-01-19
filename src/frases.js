@@ -1,6 +1,6 @@
 const frases = [
 
-    "Hola Romeo.", 
+    "Hola Romeo", 
    
    "Hola Julieta", 
    
