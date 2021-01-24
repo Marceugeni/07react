@@ -1,8 +1,8 @@
 import styled from "styled-components"
 
-function Fbutton () {
+function Bbutton () {
     return (
-        <Buttion>Forward</Buttion>
+        <Buttion>Backwards</Buttion>
     )
     
 }
@@ -22,5 +22,4 @@ const Buttion = styled.button`
 
 `
 
-export default Fbutton;
-
+export default Bbutton;

@@ -5,10 +5,11 @@ import Header from "./components/Header"
 import styled from "styled-components"
 import './index.css'
 import Fbutton from "./components/ButtonForward"
+import Bbutton from "./components/ButtonBackwards"
 import Footer from "./components/Footer"
 
 function App () {
-  const liniaComponent = frases.map(frase => <Linia oneFrase={frase}/>)
+  const liniesComponent = frases.map(frase => <Linia oneFrase={frase}/>)
 
   return (
     <Background>
@@ -16,11 +17,11 @@ function App () {
       <Header />
 
       <Buttoni>
-        <Fbutton />
+        <Bbutton />
         <Fbutton />
       </Buttoni>
 
-      {liniaComponent}
+      {liniesComponent}
 
       <Footer />
 
