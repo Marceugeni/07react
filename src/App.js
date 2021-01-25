@@ -1,5 +1,5 @@
 import React from "react";
-import Linia from "./components/Linia"
+import Frasesblock from "./components/Frasesblock"
 import  frases from "./frases"
 import Header from "./components/Header"
 import styled from "styled-components"
@@ -8,7 +8,7 @@ import Button from "./components/Button"
 import Footer from "./components/Footer"
 
 function App () {
-  const liniesComponent = frases.map(frase => <Linia oneFrase={frase}/>)
+  const liniesComponent = frases.map(blockFrases => <Frasesblock textBlock={blockFrases}/>)
 
   return (
     <Background>
