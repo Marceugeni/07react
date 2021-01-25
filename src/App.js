@@ -4,8 +4,7 @@ import  frases from "./frases"
 import Header from "./components/Header"
 import styled from "styled-components"
 import './index.css'
-import Fbutton from "./components/ButtonForward"
-import Bbutton from "./components/ButtonBackwards"
+import Button from "./components/Button"
 import Footer from "./components/Footer"
 
 function App () {
@@ -17,8 +16,8 @@ function App () {
       <Header />
 
       <Buttoni>
-        <Bbutton />
-        <Fbutton />
+        <Button text="Prev"/>
+        <Button text="Next"/>
       </Buttoni>
 
       {liniesComponent}
